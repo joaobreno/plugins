@@ -10,7 +10,7 @@
 </script>
 <script>
 (function(){'use strict';
-const data=JSON.parse(document.getElementById('dados-bateria').textContent);const key='qa-cruzado:'+data.id;let saved={};const error=document.getElementById('erro');try{saved=JSON.parse(localStorage.getItem(key)||'{}')}catch(e){error.textContent='Não foi possível ler os registros locais. Use o PDF para guardar os resultados.'}
+const data=JSON.parse(document.getElementById('dados-bateria').textContent);const key='qa-assistant:'+data.id;let saved={};const error=document.getElementById('erro');try{saved=JSON.parse(localStorage.getItem(key)||'{}')}catch(e){error.textContent='Não foi possível ler os registros locais. Use o PDF para guardar os resultados.'}
 const set=(id,value)=>document.getElementById(id).textContent=value;set('titulo',data.titulo);set('contexto',data.contexto);set('preparo',data.preparo);set('cobertura',data.cobertura);document.title=data.titulo;
 const statuses=['Não iniciado','Aprovado','Reprovado','Bloqueado','Não aplicável'];const container=document.getElementById('casos');const controls=[];
 function element(tag,text){const e=document.createElement(tag);if(text!==undefined)e.textContent=text;return e}

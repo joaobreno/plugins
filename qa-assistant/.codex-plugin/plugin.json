@@ -1,13 +1,13 @@
 {
-  "name": "qa-cruzado",
+  "name": "qa-assistant",
   "version": "0.1.0",
   "description": "Skills para revisão de código e testes manuais em equipes sem QA dedicado.",
   "skills": "./skills/",
   "interface": {
-    "displayName": "QA Cruzado",
+    "displayName": "QA Assistant",
     "shortDescription": "Revisão e testes manuais",
     "longDescription": "Apoia revisões de PR ou MR e gera baterias de testes manuais em HTML com exportação para PDF.",
-    "developerName": "QA Cruzado",
+    "developerName": "João Breno Pamplona",
     "category": "Developer Tools",
     "capabilities": [
       "Read",

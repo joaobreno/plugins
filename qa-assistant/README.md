@@ -1,4 +1,4 @@
-# QA Cruzado
+# QA Assistant
 
 Plugin local para apoiar testes cruzados em equipes de desenvolvimento. Contém duas skills:
 
