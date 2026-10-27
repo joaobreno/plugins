@@ -1,0 +1,20 @@
+{
+  "name": "joaobreno-plugins",
+  "interface": {
+    "displayName": "João Breno Plugins"
+  },
+  "plugins": [
+    {
+      "name": "qa-assistant",
+      "source": {
+        "source": "local",
+        "path": "./qa-assistant"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    }
+  ]
+}

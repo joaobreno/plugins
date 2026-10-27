@@ -1,0 +1,13 @@
+{
+  "name": "joaobreno-plugins",
+  "owner": {
+    "name": "João Breno Pamplona"
+  },
+  "plugins": [
+    {
+      "name": "qa-assistant",
+      "source": "qa-assistant",
+      "description": "Revisão de código e testes manuais para equipes sem QA dedicado."
+    }
+  ]
+}

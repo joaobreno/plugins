@@ -7,7 +7,7 @@ Plugin local para apoiar testes cruzados em equipes de desenvolvimento. Contém 
 
 ## Uso
 
-Disponibilize esta pasta como plugin local no ambiente Codex que suporta manifestos `.codex-plugin/plugin.json`. O método de instalação depende da configuração do ambiente; este pacote não se registra automaticamente. As skills também podem ser copiadas individualmente para o diretório de skills do Codex. Exemplos de pedido:
+Consulte o [README do repositório](../README.md) para instalar o marketplace no Codex/ChatGPT, Claude Code ou Cursor. Exemplos de pedido:
 
 - “Use code-review to review this PR.”
 - “Use manual-testing to create a manual test suite for this MR.”

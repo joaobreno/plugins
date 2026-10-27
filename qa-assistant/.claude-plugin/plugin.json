@@ -1,0 +1,9 @@
+{
+  "name": "qa-assistant",
+  "version": "0.1.0",
+  "description": "Revisão de código e testes manuais para equipes sem QA dedicado.",
+  "author": {
+    "name": "João Breno Pamplona"
+  },
+  "repository": "https://github.com/joaobreno/plugins"
+}
