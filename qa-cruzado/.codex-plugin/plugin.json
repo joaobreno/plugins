@@ -1,0 +1,21 @@
+{
+  "name": "qa-cruzado",
+  "version": "0.1.0",
+  "description": "Skills para revisão de código e testes manuais em equipes sem QA dedicado.",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "QA Cruzado",
+    "shortDescription": "Revisão e testes manuais",
+    "longDescription": "Apoia revisões de PR ou MR e gera baterias de testes manuais em HTML com exportação para PDF.",
+    "developerName": "QA Cruzado",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Use code-review to review this PR.",
+      "Use manual-testing to create a test suite for this change."
+    ]
+  }
+}
