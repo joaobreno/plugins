@@ -1,5 +1,7 @@
 # QA Assistant
 
+![Logo do QA Assistant](assets/logo.svg)
+
 Plugin local para apoiar testes cruzados em equipes de desenvolvimento. Contém duas skills:
 
 - **code-review**: revisa PR/MR ou diff e apresenta comentários concisos, fundamentados e priorizados.

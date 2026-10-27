@@ -16,6 +16,9 @@
     "defaultPrompt": [
       "Use code-review to review this PR.",
       "Use manual-testing to create a test suite for this change."
-    ]
+    ],
+    "brandColor": "#142B4D",
+    "composerIcon": "./assets/logo.png",
+    "logo": "./assets/logo.png"
   }
 }
