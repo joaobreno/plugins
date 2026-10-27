@@ -1,8 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="QA Assistant">
-  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#142b4d"/><stop offset="1" stop-color="#091727"/></linearGradient><linearGradient id="accent" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#5eead4"/><stop offset="1" stop-color="#38bdf8"/></linearGradient></defs>
-  <rect x="16" y="16" width="480" height="480" rx="112" fill="url(#bg)"/>
-  <rect x="17" y="17" width="478" height="478" rx="111" fill="none" stroke="#405775" stroke-opacity=".55" stroke-width="2"/>
-  <path d="M207 165 139 256l68 91M305 165l68 91-68 91" fill="none" stroke="#a7bdd5" stroke-width="29" stroke-linecap="round" stroke-linejoin="round"/>
-  <circle cx="256" cy="256" r="83" fill="#112a40" stroke="url(#accent)" stroke-width="15"/>
-  <path d="m216 256 27 28 55-61" fill="none" stroke="url(#accent)" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#1b2d45"/><stop offset="1" stop-color="#0b1322"/></linearGradient>
+    <linearGradient id="signal" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#8bf4d2"/><stop offset="1" stop-color="#37c4c6"/></linearGradient>
+  </defs>
+  <rect x="12" y="12" width="488" height="488" rx="120" fill="url(#background)"/>
+  <rect x="13" y="13" width="486" height="486" rx="119" fill="none" stroke="#fff" stroke-opacity=".10" stroke-width="2"/>
+  <path d="M158 190 99 256l59 66M354 190l59 66-59 66" fill="none" stroke="#8ca2ba" stroke-opacity=".68" stroke-width="21" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M191 117h110a48 48 0 0 1 48 48v182a48 48 0 0 1-48 48H191a48 48 0 0 1-48-48V165a48 48 0 0 1 48-48Z" fill="#e8f4f1"/>
+  <path d="M188 166h89M188 193h55" fill="none" stroke="#91a9ac" stroke-width="11" stroke-linecap="round"/>
+  <path d="M191 267l41 41 84-91" fill="none" stroke="#10283a" stroke-width="38" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M191 267l41 41 84-91" fill="none" stroke="url(#signal)" stroke-width="25" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M189 350h73" fill="none" stroke="#b3c9c7" stroke-width="10" stroke-linecap="round"/>
 </svg>
